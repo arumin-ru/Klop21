@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <link rel="stylesheet" href="style.css">
+<link href=“://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css”
+rel=”stylesheet” />
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class=”navbar navbar-expand
+navbar-dark bg-success”>
+<div class=”container-fluid”>
+<a class=”navbar-brand” href=”./”>
+Инсектофан
+</a>
+<ul class=”navbar-nav me-auto mb-2 mb-lg-0”>
+<!-- NAVBAR LINKS -->
+<li class=”nav-item”>
+<a class=”nav-link active” href=”#”>
+О нас
+</a>
+</li>
+<li class=”nav-item”>
+<a class=”nav-link” href=”#”>
+Контакты
+</a>
+</li>
+<!--DROPDOWN -->
+<li class=”nav-item dropdown”>
+<a class=”nav-link dropdown-toggle”
+href=”#”
+id=”navbarDropdown”
+role=”button”
+data-bs-toggle=”dropdown”>
+Про клопов
+</a>
+<!-- DROPDOWN OPTIONS -->
+<ul class=”dropdown-menu”>
+<li>
+<a class=”dropdown-item” href=”#”>
+Водомерка обыкновенная
+</a>
+</li>
+<li>
+<a class=”dropdown-item” href=”#”>
+Клоп-черепашка
+</a>
+</li>
+</ul>
+</li>
+</ul>
+<!-- SEARCH BOX -->
+<form class=”d-flex”>
+<input class=”form-control me-2”
+type=”Поиск”
+placeholder=”Поиск site” />
+<button class=”btn btn-primary” type=”submit”>
+Искать
+</button>
+</form>
+</div>
+</nav>
+<!-- ARTICLE -->
+<div class=”container mt-5”>
+<div class=”row”>
+<div class=”col-sm-2”>Название насекомого</div>
+<div class=”col-sm-8”>
+<h2>Могут ли клопы приносить пользу</h2>
+<h5>Создан 17 января 2025</h5>
+<!-- ARTICLE TEXT -->
+<p>
+Ответ: могут. Мы рассмотрели ряд опасных разновидностей и несколько безобидных. Однако случается, так что эти насекомые могут приносить некоторую пользу. </br>
+За это отвечают несколько видов, которые очень помогают огородникам. Например:
+Зикрона синяя. Эти насекомые выполняют ответственную задачу — уничтожение колорадского жука. Эти хищники из Англии имеют блестящее сине-зеленое тельце. Охотятся они преимущественно днем, уничтожая яйца садовых вредителей.
+Периллюс. Эти насекомые борются с различными паразитами, в том числе и с имаго.
+</p>
+</div>
+</div>
+<!-- FORM -->
+<form class=”was-validated”>
+<!-- Email Address Input -->
+<div class=”mb-3”>
+<label for=”email” class=”form-label”>
+Адрес электронной почты:
+</label>
+<input type=”email” class=”form-control”
+id=”email”
+placeholder=”Ввести your email id” required />
+<div class=”valid-feedback”>
+Действующий адрес Имейла.
+</div>
+<div class=”invalid-feedback”>
+Пожалуйста, заполните это поле.
+</div>
+</div>
+<!-- Password Input -->
+<div class=”mb-3”>
+<label for=”password” class=”form-label”>
+Пароль:
+</label>
+<input type=”password” class=”form-control”
+id=”password” placeholder=”Enter your password”
+minlength=”8” required />
+<div class=”form-text” id=”password-help-block”>
+Пароль должен быть не менее 8 символов.
+</div>
+
+<div class=”valid-feedback”>
+Действующий пароль.
+</div>
+<div class=”invalid-feedback”>
+Пожалуйста, заполните это поле.
+</div>
+</div>
+<!-- Checkbox -->
+<div class=”form-check mb-3”>
+<input class=”form-check-input”
+type=”checkbox”
+id=”checkbox” required />
+<label class=”form-check-label” for=”checkbox”>
+Я согласен с условиями.
+</label>
+<div class=”valid-feedback”>
+Вы соглаились с условиями.
+</div>
+<div class=”invalid-feedback”>
+Проверьте почту, чтобы продолжить.
+</div>
+</div>
+<button type=”submit” class=”btn btn-primary”>
+Подтвердить
+</button>
+</form>
+</div>
+<script src=“https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js”></script>
+</body>
+</html>
